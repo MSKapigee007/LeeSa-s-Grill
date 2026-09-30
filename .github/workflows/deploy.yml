@@ -2,7 +2,7 @@ name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main, leesaa-kitchen ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npx ng build --output-path=dist --base-href=/LeeSaaKitchen/
+        run: npx ng build --output-path=dist --base-href=/LeeSa-s-Grill/
 
       - name: Prepare GitHub Pages artifact
         run: |
@@ -51,6 +51,7 @@ jobs:
           path: dist/site
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
