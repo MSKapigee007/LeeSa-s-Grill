@@ -12,7 +12,7 @@ import { Testimonial } from '../../models/menu-item.model';
 })
 export class HomeComponent {
   testimonials: Testimonial[] = [
-    { name: 'Sarah M.', rating: 5, text: 'The Butter Chicken is absolutely divine! Best Indian food in Augusta. We order from LeeSaa Kitchen every week.', date: '2024-01-15' },
+    { name: 'Sarah M.', rating: 5, text: "The Butter Chicken is absolutely divine! Best Indian food in Augusta. We order from LeeSa's Kitchen every week.", date: '2024-01-15' },
     { name: 'James K.', rating: 5, text: 'We used their catering for our wedding reception - 150 guests and everyone raved about the food. The Biryani was outstanding!', date: '2024-02-20' },
     { name: 'Priya R.', rating: 5, text: 'Authentic flavors that remind me of home cooking. The Dal Makhani and Garlic Naan combo is a must-try!', date: '2024-03-10' }
   ];
