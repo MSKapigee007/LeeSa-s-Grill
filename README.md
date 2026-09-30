@@ -1,6 +1,6 @@
-# LeeSaa Kitchen (Augusta Cloud Kitchen) 🍽️
+# LeeSa's Kitchen (Augusta Cloud Kitchen) 🍽️
 
-A modern, responsive multi-page web application built with **Angular 17+**, **HTML5**, and custom **CSS3** for LeeSaa Kitchen / Augusta Cloud Kitchen.
+A modern, responsive multi-page web application built with **Angular 17+**, **HTML5**, and custom **CSS3** for LeeSa's Kitchen / Augusta Cloud Kitchen.
 
 The application is built using the provided menu and branding assets from:
 - `Augusta_Cloud_Kitchen_Catering_Menu.pdf.pdf`
